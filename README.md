@@ -52,7 +52,7 @@ You need the following hardware components to build this project:
 
 #### Wiring
 
-![](./hardware/Infrared Thermometer schematic.png)
+![](./hardware/Infrared-Thermometer-schematic.png)
 
 ### Software
 
