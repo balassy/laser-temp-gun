@@ -11,7 +11,7 @@ A battery-powered infrared thermometer with a laser pointer built with an ESP826
 - Measures battery level.
 - Displays measured data on the Wemos OLED shield.
 - Controlled by a Wemos D1 Mini microcontroller board.
-- Allows charging the battery via a TP4065 charger.
+- Allows charging the battery via a TP4056 charger.
 
 
 ## On this page
@@ -45,14 +45,14 @@ You need the following hardware components to build this project:
 - 5V laser pointer
 - 18650 battery
 - 18650 battery holder
-- TP4065 battery charger board
+- TP4056 battery charger board
 - 220K resistor (to measure the battery level)
 - On-off switch
 - Momentary push button
 
 #### Wiring
 
-Coming soon...
+![](./hardware/Infrared Thermometer schematic.png)
 
 ### Software
 
