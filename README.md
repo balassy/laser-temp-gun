@@ -7,11 +7,11 @@ A battery-powered infrared thermometer with a laser pointer built with an ESP826
 
 - Measures ambient and target object temperature with the MLX90614 infrared sensor.
 - Shoots a laser beam to mark the target object.
-- Powered by a 18650 battery.
+- Powered by a 18650 battery (Model A) or a LiFePO4 3.2V AA battery (Model D).
 - Measures battery level.
 - Displays measured data on the Wemos OLED shield.
 - Controlled by a Wemos D1 Mini microcontroller board.
-- Allows charging the battery via a TP4056 charger.
+- Allows charging the battery via a TP4056 charger (Model A).
 
 
 ## On this page
@@ -43,16 +43,28 @@ You need the following hardware components to build this project:
 - Wemos OLED shield
 - MLX90614 infrared sensor
 - 5V laser pointer
-- 18650 battery
-- 18650 battery holder
-- TP4056 battery charger board
 - 220K resistor (to measure the battery level)
 - On-off switch
 - Momentary push button
+- For Model A:
+  - 18650 battery
+  - 18650 battery holder
+  - TP4056 battery charger board
+- For Model D:
+  - LiFePO4 3.2V AA battery
+  - Single AA battery holder
 
 #### Wiring
 
-![](./hardware/Infrared-Thermometer-schematic.png)
+Model A:
+
+![](./hardware/Infrared-Thermometer-Model-A-schematic.png)
+
+Model D:
+
+![](./hardware/Infrared-Thermometer-Model-D-schematic.png)
+
+You can find the Fritzing file in the `./hardware` folder.
 
 ### Software
 
