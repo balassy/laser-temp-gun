@@ -5,7 +5,12 @@ A battery-powered infrared thermometer with a laser pointer built with an ESP826
 
 ## Features
 
-- Measures ambient and target object temperature with the MLX90614 infrared sensor.
+- Measures ambient and target object temperature with the MLX90614 infrared sensor. 
+  - -40 … +125 °C for sensor temperature
+  - -70 … +380 °C for object temperature
+  - High accuracy of 0.5 °C over wide temperature range (0 … +50 °C for both Ta and To)
+  - High (medical) accuracy calibration
+  - Measurement resolution of 0.02 °C
 - Shoots a laser beam to mark the target object.
 - Powered by a 18650 battery (Model A) or a LiFePO4 3.2V AA battery (Model D).
 - Measures battery level.
@@ -53,6 +58,7 @@ You need the following hardware components to build this project:
 - For Model D:
   - LiFePO4 3.2V AA battery
   - Single AA battery holder
+  - M3x6 screw to mount the battery holder
 
 #### Wiring
 
@@ -81,7 +87,13 @@ Just compile and upload the [./software/InfraredThermometer/InfraredThermometer.
 
 ### 3D-Printed Case
 
-Coming soon...
+I designed a 3D printable case only for Model D. It's more a part-holder bone than a full housing, but still it is functional and I find it cool that it reveals how the device is working.
+
+![](./case/Laser-Temp-Gun-Model-D-v28.png)
+
+You can find the 3D printable STL and all the source files in the `./case` folder. 
+
+You can print with 0.2mm layer height without support. The holes for the buttons and the battery holder mounting screw is covered with a sacrificial layer to avoid supports, so you must remove that after printing.
 
 
 ## About the author
