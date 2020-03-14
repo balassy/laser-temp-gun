@@ -18,6 +18,9 @@ A battery-powered infrared thermometer with a laser pointer built with an ESP826
 - Controlled by a Wemos D1 Mini microcontroller board.
 - Allows charging the battery via a TP4056 charger (Model A).
 
+![](./photos/screen.jpg)
+
+The used microcontroller board has built-in WiFi capability, therefore it is possible to transmit the measured values over the wireless network for further processing (this feature is not implemented). 
 
 ## On this page
 
@@ -94,6 +97,8 @@ I designed a 3D printable case only for Model D. It's more a part-holder bone th
 You can find the 3D printable STL and all the source files in the `./case` folder. 
 
 You can print with 0.2mm layer height without support. The holes for the buttons and the battery holder mounting screw is covered with a sacrificial layer to avoid supports, so you must remove that after printing.
+
+![](./photos/top.jpg)
 
 
 ## About the author
