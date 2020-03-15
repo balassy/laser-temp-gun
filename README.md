@@ -100,6 +100,10 @@ You can print with 0.2mm layer height without support. The holes for the buttons
 
 ![](./photos/top.jpg)
 
+Shares on 3D printing community sites for comments and remixes:
+- Thingiverse: https://www.thingiverse.com/thing:4222541
+- PrusaPrinters: https://www.prusaprinters.org/prints/25513-infrared-thermometer-aka-laser-temp-gun
+
 
 ## About the author
 
